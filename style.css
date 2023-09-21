@@ -1,0 +1,13 @@
+.inboxsdk__composeButton:hover {
+    cursor: pointer !important;
+}
+
+.inboxsdk__compose_notice {
+    background-color: #e96c6c2b !important;
+    text-align: center;
+}
+
+
+.inboxsdk__compose_notice::after {
+    content: "You may have entered confidential information " !important;
+}
